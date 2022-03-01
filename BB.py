@@ -1,7 +1,4 @@
 import os #Editing your PC.
-import time
-from xml.dom import InuseAttributeErr #Waiting.
-import subprocess
 print("Welcome to Big Bang project.")
 print("This is automated project for convenient use without the intervention of the interface operation system.")
 print("Select mode:")
@@ -24,7 +21,5 @@ elif OSWhat == 5:
     WhatISFileOpen = input("Write name and type file here: ")
     OpenFile = open(WhatISFileOpen, "r") 
     print(OpenFile.read())
-elif OSWhat == 6:
-    subprocess.Popen(r'explorer /select,"D:\PythonLearning"')
 else:
     print("Invaild.")
