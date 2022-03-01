@@ -2,7 +2,7 @@ import os #Editing your PC.
 print("Welcome to Big Bang project.")
 print("This is automated project for convenient use without the intervention of the interface operation system.")
 print("Select mode:")
-OSWhat = int(input("1. Shutdown PC. 2. Delete file 3. Cancel shutdown 4. Create file 5. Read file 6. Open file PythonLearning:  "))
+OSWhat = int(input("1. Shutdown PC. 2. Delete file 3. Cancel shutdown 4. Create file 5. Read file:  "))
 if OSWhat == 1:
     os.system("shutdown /s /t 10")
 elif OSWhat == 2:
